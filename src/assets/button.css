@@ -172,8 +172,10 @@ justify-content: center;
 font-size: 30px;
 box-shadow: transparent;
 opacity:  0.5;
-animation: animate 4s linear infinite;
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 cursor: pointer;
+margin:30px;
+
 }
 .fa-angle-double-down:hover{
   opacity: 1;
@@ -191,4 +193,16 @@ cursor: pointer;
   100% {
     background-position: 500%;
   }
+}
+
+
+.boxx{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+  width: 450px;
+  height: 400px;
+  margin-left: 300px;
+ 
+
 }
