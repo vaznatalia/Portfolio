@@ -7,7 +7,7 @@ import '../App.css'
 const NavigationBar = () => {
 
   const handleClickLogo = () => {
-    window.location = '/home';
+    window.location = '/';
   };
   const handleClickIntro = () => {
     window.location = '/intro';
@@ -18,6 +18,7 @@ const NavigationBar = () => {
   const handleClickContact = () => {
     window.location = '/projects';
   };
+  
  
   return(
  

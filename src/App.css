@@ -108,7 +108,7 @@ html {
   }
   
   
-  
+   
   .text li {
 	display: inline-block;
 	float: left;
@@ -156,9 +156,7 @@ span a {
 	text-decoration: none;
 	margin: 0 10px;
 	transition: all 0.4s ease-in-out;
-	&:hover {
-		color: #ffffff;
-	}
+	
 }
 
 @keyframes float {
@@ -188,7 +186,10 @@ span a {
 	justify-content: flex-end;
 	
 }
-
+.footer{
+	display: inline-flex;
+	justify-content: flex-start;
+}
 .intro-page{
 	
 	position: absolute;
