@@ -20,7 +20,8 @@
   padding: .8em 1em;
   margin: auto 2em;
   position: relative;
-  align-self: center;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   border: 3px #00bcdd solid;
   border-image: linear-gradient(45deg, #00bcdd 0%, #ff00ff 100%);
@@ -153,7 +154,7 @@
   position: relative;
   font-family: 'Inria Serif', serif;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 4px;
   overflow: hidden;
   background: linear-gradient(45deg, #44e3ff 0%, #ff66ff 100%);
@@ -197,8 +198,8 @@ margin:30px;
   display: flex;
   justify-content: center;
   background-color: rgb(202, 202, 202);
-  width: 650px;
-  height: 550px;
+  width: 950px;
+  height: 650px;
 
  
 

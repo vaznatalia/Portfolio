@@ -1,14 +1,24 @@
-import React from 'react'
+import React from 'react';
+import Example from './Test';
 
-function Projects(){
-    return(
 
-        <div>
-            <span className="boxx "></span>
-            <span></span>
-            <span></span>
-        </div>
-    )
 
+class Project extends React.Component {
+
+
+  render() {
+    return (
+    <div className="center" >
+      <Example  />
+      <Example />
+      <Example />
+
+    </div>
+  
+  
+    );
+  }
 }
-export default Projects
+
+export default Project
+  

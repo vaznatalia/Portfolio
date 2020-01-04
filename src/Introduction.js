@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import { Link } from 'react-router-dom';
+import {Spring} from 'react-spring/renderprops'
 
 class Example extends Component {
 
@@ -37,6 +38,7 @@ class Example extends Component {
       <i onMouseEnter={this.handleEnter.bind(this)}
               class="fas fa-angle-double-down"></i>
        {this.state.isHovered ? (
+         <div className="center">
           <div class="btn boxx">
             <p>
             Each brand has a story to tell, <br/>an emotion to convey, a message to share. <br/>
@@ -62,15 +64,17 @@ class Example extends Component {
          
            <Link style={{textDecoration:'none'}} to="./projects"> <i class="fas fa-long-arrow-alt-right"></i></Link>
       
-          </div>     
+          </div>   
+          </div>  
                ) : (
             <div />
           )}
         
-        <Particles style={{zIndex:'-1'}} />
+        {/* <Particles style={{zIndex:'-1'}} /> */}
        
       
-    
+        
+ 
 </>
     )
   }
