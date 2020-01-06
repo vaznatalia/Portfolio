@@ -22,7 +22,7 @@ const NavigationBar = () => {
  
   return(
  
-<nav className="navbar navbar-expand-lg    navbar-dark bg-transparent pyarn" >
+<nav className="navbar navbar-expand-lg   mb-5 navbar-dark bg-transparent pyarn" >
   <a className="navbar-brand" style={{textShadow:'2px 2px pink'}}  onClick={handleClickLogo} href="#">NV</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>

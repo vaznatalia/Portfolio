@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import Particles from 'react-particles-js';
 import { Link } from 'react-router-dom';
-import {Spring} from 'react-spring/renderprops'
+import { Card } from 'react-bootstrap'
 
 class Example extends Component {
 
@@ -39,7 +39,31 @@ class Example extends Component {
               class="fas fa-angle-double-down"></i>
        {this.state.isHovered ? (
          <div className="center">
-          <div class="btn boxx">
+
+<Card className="boxx" border="primary" style={{ width: '52rem' }}>
+    <Card.Header>Introduction</Card.Header>
+    <Card.Body>
+      <Card.Title>Each brand has a story to tell, an emotion to convey, a message to share. <br/></Card.Title>
+      <Card.Text>
+
+      I'm a creative Full Stack Web Developer Junior. I graduated at Wyncode Academy in Mami-FL, where I'm currently based.
+        <br/>
+        
+        These are the languages, frameworks, libraries and tools  I've learned and used so far: <br/>
+              <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" ></img>
+              <img src="https://img.icons8.com/nolan/64/css-filetype.png"></img>
+              <img src="https://img.icons8.com/nolan/64/js.png"></img>
+              <img src="https://img.icons8.com/color/48/000000/bootstrap.png"></img>
+              <img src="https://img.icons8.com/nolan/64/react-native.png"></img>
+              <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png"></img>
+              <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png"></img>
+              <br/>
+              I'm enrolled in React Native and Scrum Master specialization
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+          {/* <div class="card-project boxx">
             <p>
             Each brand has a story to tell, <br/>an emotion to convey, a message to share. <br/>
             
@@ -64,7 +88,7 @@ class Example extends Component {
          
            <Link style={{textDecoration:'none'}} to="./projects"> <i class="fas fa-long-arrow-alt-right"></i></Link>
       
-          </div>   
+          </div>    */}
           </div>  
                ) : (
             <div />
