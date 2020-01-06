@@ -1,6 +1,6 @@
 import React from 'react';
 import Example from './Test';
-
+import Cards from './Cards'
 
 
 class Project extends React.Component {
@@ -8,13 +8,10 @@ class Project extends React.Component {
 
   render() {
     return (
-    <div className="center" >
-      <Example  />
-      <Example />
-      <Example />
 
-    </div>
-  
+   
+      <Cards />
+     
   
     );
   }
