@@ -46,7 +46,7 @@ class Example extends Component {
 }} >Each brand has a story to tell, an emotion to convey, a message to share. <br/></Card.Title>
       <Card.Text style={{fontSize: '15px'}}>
 
-      I'm a creative Full Stack Web Developer Junior. I am very passionated about everthing that involves technology I graduated at Wyncode Academy in Mami-FL, where I'm currently based.
+      I'm a creative Full Stack Web Developer Junior. I am very passionated about everthing that involves technology. I recent  graduated at <a href="https://wyncode.co/">Wyncode</a> Academy in Mami-FL, where I'm currently based.
         <br/>
         
         These are some languages, frameworks, libraries and tools  I've learned and used so far:
@@ -62,8 +62,10 @@ class Example extends Component {
               <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails"></img>
               </div>
          <br/>
-              I  want to build a solid career as Web Developer, learning more and more every day and inspire people with my work and story
-                                       ABOUT ME 
+              I  want to build a solid career as Web Developer, learning more and more every day and inspire people with my work and story<br/>
+             ABOUT ME 
+             I'm from Brazil 
+
             I
       </Card.Text>
     </Card.Body>

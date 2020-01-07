@@ -8,6 +8,9 @@ import Home from './Home.js'
 import NavigationBar from './components/NavigationBar'
 import Projects from './components/Projects'
 import Footer from './components/Footer';
+import Resume from './components/Resume'
+import PDFJs from './backends/pdfjs';
+
 
 class App extends Component{
   state = {};
@@ -21,6 +24,10 @@ class App extends Component{
     <Route exact path="/" component={Home} />
     <Route  exact path="/intro" component={Introduction} />
     <Route  exact path="/projects" component={Projects}  />
+    <Resume 
+     backend={PDFJs}
+     src='/ats.pdf'
+    />
     </Switch>
     <Footer />
    </BrowserRouter>
