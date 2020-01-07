@@ -59,9 +59,7 @@ function Cards(){
         <Card.Img variant="top" src={Portfolio}  />
         <Card.Body>
           <Card.Title>Portfolio</Card.Title>
-          <Card.Text>
-            Portfolio built in ReactJS where you can see projects I worked during my time at Wyncode Academy  and my skills as Web Developer
-          </Card.Text>
+          <Card.Text> This website features a collection of my personal and professional projects as a web developer  </Card.Text>
           <a variant="primary" data-toggle="tooltip" title="github/Portfolio" href="https://github.com/vaznatalia/Portfolio"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a>
         </Card.Body>
     </Card> 
