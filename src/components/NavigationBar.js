@@ -35,9 +35,9 @@ const NavigationBar = () => {
       <li className="nav-item">
         <a className="nav-link" onClick={handleClickProjects} href="#">Projects</a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" onClick={handleClickContact} href="#">Contact</a>
-      </li>
+      </li> */}
       
     </ul>
   </div>
