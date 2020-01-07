@@ -62,7 +62,9 @@ class Example extends Component {
               <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails"></img>
               </div>
          <br/>
-              
+              I  want to build a solid career as Web Developer, learning more and more every day and inspire people with my work and story
+                                       ABOUT ME 
+            I
       </Card.Text>
     </Card.Body>
   </Card>
