@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Card } from 'react-bootstrap'
-import Icons from './components/Icons'
-
+import Resume from './components/Resume'
+import {Link } from 'react-router-dom'
 class Example extends Component {
 
   constructor(props) {
@@ -33,7 +33,7 @@ class Example extends Component {
     return (
       <>
      
-       <p className="animatedLetter"> ESCAPE INTO AMAZING EXPERIENCES</p>
+       <h1 className="animatedLetter"> ESCAPE INTO AMAZING EXPERIENCES</h1>
       <i onMouseEnter={this.handleEnter.bind(this)}
               class="fas fa-angle-double-down"></i>
        {this.state.isHovered ? (
@@ -46,65 +46,35 @@ class Example extends Component {
 }} >Each brand has a story to tell, an emotion to convey, a message to share. <br/></Card.Title>
       <Card.Text style={{fontSize: '15px'}}>
 
-      I'm a creative Full Stack Web Developer Junior. I am very passionated about everthing that involves technology. I recent  graduated at <a href="https://wyncode.co/">Wyncode</a> Academy in Mami-FL, where I'm currently based.
+      I'm a creative Full Stack Web Developer Junior,  passionated about everthing that involves technology. I recent  graduated at <a href="https://wyncode.co/">Wyncode</a> Academy in Mami-FL, where I'm currently based.<br/>
+      I'm from Brazil and also have a large  background as Pedagogy Educator. 
+  
         <br/>
         
         These are some languages, frameworks, libraries and tools  I've learned and used so far:
    <br/>   
             <div className="icons-intro"> 
-            <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" ></img>
-              <img src="https://img.icons8.com/nolan/64/css-filetype.png" data-toggle="tooltip" title="CSS"></img>
-              <img src="https://img.icons8.com/nolan/64/js.png " data-toggle="tooltip" title="JavaScript" ></img>
-              <img src="https://img.icons8.com/color/48/000000/bootstrap.png" data-toggle="tooltip" title="Bootstrap"></img>
-              <img src="https://img.icons8.com/nolan/64/react-native.png" data-toggle="tooltip" title="React"></img>
-              <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png" data-toggle="tooltip" title="Ruby"></img>
-              <img src="https://img.icons8.com/color/48/000000/postgreesql.png"  data-toggle="tooltip" title="PostegreeSQL"></img>
-              <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails"></img>
+            <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" alt="html" ></img>
+              <img src="https://img.icons8.com/nolan/64/css-filetype.png" data-toggle="tooltip" title="CSS" alt="css"></img>
+              <img src="https://img.icons8.com/nolan/64/js.png " data-toggle="tooltip" title="JavaScript" alt="JS"></img>
+              <img src="https://img.icons8.com/color/48/000000/bootstrap.png" data-toggle="tooltip" title="Bootstrap" alt="Bootstrap"></img>
+              <img src="https://img.icons8.com/nolan/64/react-native.png" data-toggle="tooltip" title="React" alt="React"></img>
+              <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png" data-toggle="tooltip" title="Ruby" alt="Ruby" ></img>
+              <img src="https://img.icons8.com/color/48/000000/postgreesql.png"  data-toggle="tooltip" title="PostegreeSQL"  alt="PostegreeSQL"></img>
+              <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails" alt="Ruby on Rails"></img>
               </div>
          <br/>
-              I  want to build a solid career as Web Developer, learning more and more every day and inspire people with my work and story<br/>
-             ABOUT ME 
-             I'm from Brazil 
-
-            I
+         I'm enrolled to learn React Native and specialize in Scrum Master 
+            <Resume  />
+            <Link style={{textDecoration:'none'}} to="./projects"> <i class="fas fa-long-arrow-alt-right"></i></Link>
+            
       </Card.Text>
     </Card.Body>
   </Card>
-  <br />
-          {/* <div class="card-project boxx">
-            <p>
-            Each brand has a story to tell, <br/>an emotion to convey, a message to share. <br/>
-            
-
-              I'm a creative Full Stack Web Developer Junior <br/> 
-              who loves animation and work with React. <br/>
-              I graduated at Wyncode Academy in Mami-FL<br/> where I'm currently 
-              based.<br/> 
-             
-
-              These are the languages, frameworks, libraries and tools <br/> I've learned and used so far: <br/>
-              <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" ></img>
-              <img src="https://img.icons8.com/nolan/64/css-filetype.png"></img>
-              <img src="https://img.icons8.com/nolan/64/js.png"></img>
-              <img src="https://img.icons8.com/color/48/000000/bootstrap.png"></img>
-              <img src="https://img.icons8.com/nolan/64/react-native.png"></img>
-              <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png"></img>
-              <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png"></img>
-              <br/>
-              I'm enrolled in React Native and Scrum Master specialization
-            </p>
-         
-           <Link style={{textDecoration:'none'}} to="./projects"> <i class="fas fa-long-arrow-alt-right"></i></Link>
-      
-          </div>    */}
-          </div>  
-               ) : (
-            <div />
-          )}
+      </div>    ) : (
+  <div />
+ )}
         
-        {/* <Particles style={{zIndex:'-1'}} /> */}
-       
-      
         
  
 </>

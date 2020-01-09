@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardDeck, Button } from 'react-bootstrap'
+import { Card, CardDeck,} from 'react-bootstrap'
 import CruiseBuddy  from '../assets/cruisebuddy.jpg'
 import dogfinder from '../assets/dogfinder.jpg'
 import Clipboard from '../assets/clipboard.jpg'
@@ -20,7 +20,7 @@ function Cards(){
           <Card.Text>
           Two applications in one, back-end in Ruby on Rails and Front-end in ReactJS. Cruisebuddy is a plataform built to users rating and share cruise experience!
           </Card.Text>
-          <a variant="primary" data-toggle="tooltip" title="github/Cruisebuddy.app"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a>
+          <a variant="primary" data-toggle="tooltip" title="github/Cruisebuddy.app" href="https://github.com/vaznatalia/Cruisebuddy.app"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a>
         </Card.Body>
     </Card>
     <Card   className="card_project" style={{ width: '18rem'}}>

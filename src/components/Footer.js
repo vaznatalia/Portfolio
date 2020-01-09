@@ -8,13 +8,13 @@ const Footer = () => {
            <div className="footer"  id="">
  
       <span  className="nav-item ">
-        <a className=""  data-toggle="tooltip" data-placement="bottom"  title="github/vaznatalia" href="https://github.com/vaznatalia"><img src="https://img.icons8.com/nolan/64/github.png" /></a>
+        <a className=""  data-toggle="tooltip" data-placement="bottom"  title="github/vaznatalia" href="https://github.com/vaznatalia"><img src="https://img.icons8.com/nolan/64/github.png" alt="github" /></a>
       </span>
       <span className="nav-item">
-        <a className=""  href="https://www.linkedin.com/in/natalia-vaz" data-toggle="tooltip" data-placement="bottom"  title="linkedin/vaz-natalia"><img  src="https://img.icons8.com/nolan/64/linkedin.png"/></a>
+        <a className=""  href="https://www.linkedin.com/in/natalia-vaz" data-toggle="tooltip" data-placement="bottom"  title="linkedin/vaz-natalia"><img  src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkeding"/></a>
       </span>
       <span className="nav-item">
-        <a className=" " href="https://natalialuizavaz@gmail.com" data-toggle="tooltip" data-placement="bottom"  title="natalialuizavaz@gmail.com" ><img src="https://img.icons8.com/nolan/64/email-sign.png"/></a>
+        <a className=" " href="https://natalialuizavaz@gmail.com" data-toggle="tooltip" data-placement="bottom"  title="natalialuizavaz@gmail.com" ><img src="https://img.icons8.com/nolan/64/email-sign.png" alt="email"/></a>
       </span>
    
   </div>

@@ -11,7 +11,7 @@ function Botao(props){
       };
     return(
         <div class="HomeButton">
- <a class="btn cta" onClick={handleClick}>So Click-a-licious</a>
+ <a class="btn cta" onClick={handleClick} href="/">So Click here!</a>
 </div>
     )
 }

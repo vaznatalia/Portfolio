@@ -9,7 +9,7 @@ import NavigationBar from './components/NavigationBar'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
-import PDFJs from './backends/pdfjs'
+
 
 class App extends Component {
   state = {}

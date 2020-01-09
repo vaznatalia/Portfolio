@@ -206,10 +206,11 @@ background: #252537;
 box-shadow: -1rem 0 3rem #000;
 
 }
+
 .fa-long-arrow-alt-right{
-font-size: 30px;  
+font-size: 40px;  
 display: flex;
-margin-top: 400px;
+justify-content: flex-end;
 }
 .icons-intro{
   display: flex;

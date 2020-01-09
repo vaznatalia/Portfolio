@@ -1,5 +1,4 @@
 import React from 'react';
-import Example from './Test';
 import Cards from './Cards'
 
 
