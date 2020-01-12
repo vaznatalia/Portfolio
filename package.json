@@ -21,6 +21,7 @@
     "react-use-gesture": "^6.0.14",
     "react-with-gesture": "^4.0.8",
     "save": "^2.4.0",
+    "serve": "^11.3.0",
     "yarn": "^1.21.1"
   },
   "scripts": {
