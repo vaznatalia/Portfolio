@@ -34,9 +34,7 @@ class Example extends Component {
       <>
      
        <h1 className="animatedLetter"> ESCAPE INTO AMAZING EXPERIENCES</h1>
-      <i onMouseEnter={this.handleEnter.bind(this)}
-              class="fas fa-angle-double-down"></i>
-       {this.state.isHovered ? (
+     
          <div className="center">
 
 <Card className="boxx" style={{ width: '52rem' }}>
@@ -53,7 +51,7 @@ class Example extends Component {
         
         These are some languages, frameworks, libraries and tools  I've learned and used so far:
    <br/>   
-            <div className="icons-intro"> 
+            <span className="icons-intro"> 
             <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" alt="html" ></img>
               <img src="https://img.icons8.com/nolan/64/css-filetype.png" data-toggle="tooltip" title="CSS" alt="css"></img>
               <img src="https://img.icons8.com/nolan/64/js.png " data-toggle="tooltip" title="JavaScript" alt="JS"></img>
@@ -62,18 +60,17 @@ class Example extends Component {
               <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png" data-toggle="tooltip" title="Ruby" alt="Ruby" ></img>
               <img src="https://img.icons8.com/color/48/000000/postgreesql.png"  data-toggle="tooltip" title="PostegreeSQL"  alt="PostegreeSQL"></img>
               <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails" alt="Ruby on Rails"></img>
-              </div>
+              </span>
          <br/>
-         I'm enrolled to learn React Native and specialize in Scrum Master 
+            I'm enrolled to learn React Native and specialize in Scrum Master 
+         <br/>
             <Resume  />
-            <Link style={{textDecoration:'none'}} to="./projects"> <i class="fas fa-long-arrow-alt-right"></i></Link>
+            <Link style={{textDecoration:'none'}} to="./projects"> <i className="fas fa-long-arrow-alt-right"></i></Link>
             
       </Card.Text>
     </Card.Body>
   </Card>
-      </div>    ) : (
-  <div />
- )}
+      </div>    
         
         
  

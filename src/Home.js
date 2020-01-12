@@ -9,7 +9,7 @@ function Home (props) {
 
     <>
     
-    <p class="popout">
+    <p className="popout">
     <span>HELLO WORLD</span><br/> 
     <span>I'M NATALIA</span><br/>
     <span> WEB DEVELOPER</span>

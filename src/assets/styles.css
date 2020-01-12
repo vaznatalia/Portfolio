@@ -2,57 +2,56 @@
 
 
 .content {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  width: 320px;
-  height: 90px;
-  pointer-events: auto;
-  transform-origin: 50% 50% 0px;
-  border-radius: 5px;
-  background: white;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: white;
-  font-family: 'Baloo Bhai', cursive;
-  padding: 10px;
+position: absolute;
+display: flex;
+align-items: center;
+width: 320px;
+height: 90px;
+pointer-events: auto;
+transform-origin: 50% 50% 0px;
+border-radius: 5px;
+background: white;
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: white;
+font-family: 'Baloo Bhai', cursive;
+padding: 10px;
 
 }
-
+@media card_project {
+  min-width: 650px
+}
 
 .center{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+
 }
 .main{
-  height: 600px;
-  padding: 100px;
-  display: flex;
-  justify-content: center;
+height: 100%;
+width: 100%;
+padding: 100px;
+display: flex;
+justify-content: center;
 }
 .card_project{
-  display: flex;
-  color: white; 
-  border-radius: 16px;
-  background: #252537;
-  box-shadow: -1rem 0 3rem #000;
-  
+display: flex;
+min-width: 350px;
+color: white; 
+border-radius: 16px;
+background: #252537;
+box-shadow: -1rem 0 3rem #000;
+margin:100px
+
 }
+@media only screen and (max-width: 500px) {
+  .card_project {
+     width: 100%;
+  }
+ }
 
 .card_project:hover{
-  transform: scale(1.1);
+transform: scale(1.1);
 }
-  
-.card-deck {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-bottom: 100px;
-}
-

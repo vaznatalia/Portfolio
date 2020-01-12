@@ -1,17 +1,16 @@
 import React from 'react'
 import '../assets/button.css'
+import { Link } from 'react-router-dom';
 
 
 
 
 
-function Botao(props){
-    const handleClick = () => {
-        window.location = '/intro';
-      };
-    return(
-        <div class="HomeButton">
- <a class="btn cta" onClick={handleClick} href="/">So Click here!</a>
+function Botao(){
+   
+ return(
+ <div class="HomeButton">
+   <Link to='/intro' class="btn cta" >So Click here!</Link>
 </div>
     )
 }

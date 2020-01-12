@@ -9,7 +9,7 @@ background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68,
 background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%); */
 background-color: #252537;
-cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
+cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 30 30,
 auto;
 
 }
@@ -35,7 +35,7 @@ auto;
 font-family: Futura, sans-serif;
 font-weight: 900;
 font-size: 80px;
-padding: 140px;
+padding: 100px;
 }
 @-webkit-keyframes ani {
 0% {
@@ -209,6 +209,7 @@ position: relative;
 display: flex;
 align-content: flex-end;
 height: 2.5rem; 
+
 
 }
 .intro-page{

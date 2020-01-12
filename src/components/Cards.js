@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardDeck,} from 'react-bootstrap'
+import { Card, CardDeck, CardColumns} from 'react-bootstrap'
 import CruiseBuddy  from '../assets/cruisebuddy.jpg'
 import dogfinder from '../assets/dogfinder.jpg'
 import Clipboard from '../assets/clipboard.jpg'
@@ -11,7 +11,7 @@ function Cards(){
 
    <>
    
-   <CardDeck >
+   <CardColumns  className="card-deck ">
     
         <Card     className="card_project" style={{ width: '18rem' }} >
         <Card.Img   variant="top" src={CruiseBuddy} />
@@ -60,10 +60,26 @@ function Cards(){
         <Card.Body>
           <Card.Title>Portfolio</Card.Title>
           <Card.Text> This website features a collection of my personal and professional projects as a web developer  </Card.Text>
-          <a variant="primary" data-toggle="tooltip" title="github/Portfolio" href="https://github.com/vaznatalia/Portfolio"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a>
+          {/* <a variant="primary" data-toggle="tooltip" title="github/Portfolio" href="https://github.com/vaznatalia/Portfolio"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a> */}
         </Card.Body>
     </Card> 
-    </CardDeck>
+    <Card   className="card_project"style={{ width: '18rem', }}>
+        {/* <Card.Img variant="top" src={'#'}  /> */}
+        <Card.Body>
+          <Card.Title></Card.Title>
+          <Card.Text>    </Card.Text>
+          {/* <a variant="primary" data-toggle="tooltip" title="github/Portfolio" href="https://github.com/vaznatalia/Portfolio"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a> */}
+        </Card.Body>
+    </Card> 
+    <Card   className="card_project" style={{ width: '18rem', }}>
+        {/* <Card.Img variant="top" src={"#"}  /> */}
+        <Card.Body>
+          <Card.Title></Card.Title>
+          <Card.Text>  </Card.Text>
+          {/* <a variant="primary" data-toggle="tooltip" title="github/Portfolio" href="https://github.com/vaznatalia/Portfolio"><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a> */}
+        </Card.Body>
+    </Card> 
+    </CardColumns>
    
     </>  
      )
