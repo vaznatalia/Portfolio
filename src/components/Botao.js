@@ -10,7 +10,7 @@ function Botao(){
    
  return(
  <div class="HomeButton">
-   <Link to='/intro' class="btn cta" >So Click here!</Link>
+   <Link to='/intro' class="btn cta" >SEE MORE...</Link>
 </div>
     )
 }

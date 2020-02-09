@@ -1,5 +1,5 @@
 import React from 'react'
-import pdf from '../assets/ats.pdf'
+import pdf from '../assets/Resume.PDF'
 
 const Resume = props => {
   return (
