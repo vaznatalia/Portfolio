@@ -4,13 +4,11 @@ import CruiseBuddy  from '../assets/cruisebuddy.jpg'
 import dogfinder from '../assets/dogfinder.jpg'
 import Clipboard from '../assets/clipboard.jpg'
 import Portfolio from '../assets/portfolio.jpg'
+
 function Cards(){
-   
-    
-     return(
+   return(
 
    <>
-   
    <CardColumns  className="card-deck ">
     
         <Card     className="card_project" style={{ width: '18rem' }} >
@@ -33,17 +31,7 @@ function Cards(){
           <a variant="primary" href="https://github.com/vaznatalia/DogFinder" data-toggle="tooltip" title="github/DogFinder" ><i class="fab fa-github-alt" style={{color:'white'}}  ></i></a>
         </Card.Body>
     </Card>
-    {/* <Card   className="card_project"style={{ width: '18rem', }}>
-        <Card.Img variant="top" src={Clipboard}  />
-        <Card.Body>
-          <Card.Title>Clipboard</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
-          <a variant="primary">Go somewhere</a>
-        </Card.Body>
-    </Card> */}
+   
     <Card   className="card_project"style={{ width: '18rem', }}>
         <Card.Img variant="top" src={Clipboard}  />
         <Card.Body>
