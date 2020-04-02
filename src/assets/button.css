@@ -175,7 +175,7 @@ box-shadow: transparent;
 opacity:  0.5;
 animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 cursor: pointer;
-margin:30px;
+margin:50px;
 
 }
 .fa-angle-double-down:hover{

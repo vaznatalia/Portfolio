@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card } from 'react-bootstrap'
 import Resume from './components/Resume'
 import {Link } from 'react-router-dom'
+
 class Example extends Component {
 
   constructor(props) {
@@ -33,7 +34,7 @@ class Example extends Component {
     return (
       <>
      
-     
+   
   
 <div className="center">
 
@@ -52,8 +53,10 @@ class Example extends Component {
         
         These are some languages, frameworks, libraries and tools  I've learned and used so far:
    <br/>   
-            <span className="icons-intro"> 
-            <img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" alt="html" ></img>
+            <table className="icons-intro"> 
+            <thead>
+            <tr>
+          <th><img src="https://img.icons8.com/nolan/64/html.png" data-toggle="tooltip" title="Html" alt="html" /></th>
               <img src="https://img.icons8.com/nolan/64/css-filetype.png" data-toggle="tooltip" title="CSS" alt="css"></img>
               <img src="https://img.icons8.com/nolan/64/js.png " data-toggle="tooltip" title="JavaScript" alt="JS"></img>
               <img src="https://img.icons8.com/color/48/000000/bootstrap.png" data-toggle="tooltip" title="Bootstrap" alt="Bootstrap"></img> 
@@ -61,7 +64,9 @@ class Example extends Component {
               <img src="https://img.icons8.com/nolan/64/ruby-programming-language.png" data-toggle="tooltip" title="Ruby" alt="Ruby" ></img>
               <img src="https://img.icons8.com/color/48/000000/postgreesql.png"  data-toggle="tooltip" title="PostegreeSQL"  alt="PostegreeSQL"></img>
               <img src="https://img.icons8.com/dusk/64/000000/ruby-gem.png" data-toggle="tooltip" title="Ruby on Rails" alt="Ruby on Rails"></img>
-              </span>
+              </tr>
+              </thead>
+              <table/>
          <br/>
          Identifying improved approaches and enhanced solutions to business challenges are activities that drive and inspire me. Exploration, pursuit, and motivation are my framework for success. I believe that fresh perspectives and trying new techniques help businesses evolve and grow. My goal is to be on the cutting-edge of industry advancements.
 
